@@ -15,7 +15,7 @@ namespace HelloWorld.exercise
             //test.exec4();
             //loop = new LoopTest();
             array = new Array_List();
-            array.exec2();
+            array.exec4();
 
 
         }
