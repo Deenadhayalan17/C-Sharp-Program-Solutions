@@ -46,6 +46,7 @@
     <Compile Include="exercise\Array_List.cs" />
     <Compile Include="exercise\conditionsTest.cs" />
     <Compile Include="exercise\LoopTest.cs" />
+    <Compile Include="exercise\stringBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

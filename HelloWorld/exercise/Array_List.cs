@@ -123,6 +123,38 @@ namespace HelloWorld.exercise
 
             }
         }
+        //5- Write a program and ask the user to supply a list of comma separated numbers(e.g 5, 1, 9, 2, 10).
+        //If the list is empty or includes less than 5 numbers, display "Invalid List" and ask the user to re-try; otherwise,
+        //display the 3 smallest numbers in the list.
+        public void exec5()
+        {
+            Console.WriteLine( "enter comma seperated values: ");
+            var input = Console.ReadLine();
+            var list = input.Split(',');
+            if (list.Count() < 5)
+            {
+                //list.DefaultIfEmpty();
+                Console.WriteLine("invalid List");
+            }
+            else
+            {
+                var smallestList = new List<int>();
+                while(smallestList.Count < 3)
+                {
+                    var min = smallestList[0];
+                    //foreach (int a in list)
+                    //{
+                    //    if ( a < min)
+                    //    {
+
+                    //    }
+                    //}
+                }
+            }
+
+
+        }
+
 
     }
 }

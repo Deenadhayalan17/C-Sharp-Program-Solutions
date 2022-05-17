@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HelloWorld
 {
@@ -91,6 +92,48 @@ namespace HelloWorld
                     Console.WriteLine("Demerit points: " + b);
             }
 
+
+        }
+        //CTS interview
+
+//        Perfect Number:
+//Create a function that tests whether or not an integer is a perfect number.A
+//perfect number is a number that can be written as the sum of its factors, (equal
+//to sum of its proper divisors) excluding the number itself.
+//For example, 6 is a perfect number, since 1 + 2 + 3 = 6, where 1, 2, and 3 are
+//all factors of 6. Similarly, 28 is a perfect number, since 1 + 2 + 4 + 7 + 14 = 28. 
+//Test Cases:
+//CheckPerfect(6) ? true
+//CheckPerfect(28) ? true
+//CheckPerfect(496) ? true
+//CheckPerfect(12) ? false
+
+        public bool CheckPerfect(int num)
+        {
+            var input= num;
+            var list = new List<int>();//facttors
+            var sum = 0;
+            
+            for (var i = 1; i <=(num/2) ; i++)
+            {
+                if (input % i == 0)
+                {
+                   list.Add(input);                          
+
+                }                
+            }
+            foreach (var i in list)
+            {
+                sum += i;
+            }
+            if (sum == input)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
 
         }
 
