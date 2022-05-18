@@ -117,7 +117,15 @@ namespace HelloWorld.exercise
 //if the user types "NUMBER OF STUDENTS", the program should still display "NumberOfStudents".
         public void exec4()
         {
-
+            Console.WriteLine("enter the string");
+            var input = Console.ReadLine();
+            var output = "";
+            foreach (var i in input.Split(' '))
+            {
+                output += char.ToUpper(  i[0]) + i.ToLower().Substring(1);
+                
+            }
+            Console.WriteLine(output);
         }
 //5- Write a program and ask the user to enter an English word.Count the number of vowels (a, e, o, u, i) in the word. So, if the user enters "inadequate", the program should display 6 on the console.
 
