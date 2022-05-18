@@ -18,7 +18,7 @@ namespace HelloWorld.exercise
             //array = new Array_List();
 
             mass = new stringBuilder();
-            mass.exec4();
+            mass.exec5();
 
 
         }

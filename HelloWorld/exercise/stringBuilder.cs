@@ -129,7 +129,23 @@ namespace HelloWorld.exercise
         }
 //5- Write a program and ask the user to enter an English word.Count the number of vowels (a, e, o, u, i) in the word. So, if the user enters "inadequate", the program should display 6 on the console.
 
+        public void exec5()
+        {
+            Console.WriteLine( "Enter the word");
+            var input = Console.ReadLine();
+            int count = 0 ;
+            var vowels = new List<char>(new char[] { 'a', 'e', 'i', 'o', 'u'});
+            foreach(var i in input)
+            {
+                if (vowels.Contains(i))
+                {
+                    count += 1;
+                }
 
+
+            }
+            Console.WriteLine("the count of vowles is : " + count);
+        }
 
 
 
