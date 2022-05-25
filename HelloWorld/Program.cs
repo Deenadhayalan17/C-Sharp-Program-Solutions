@@ -2,8 +2,7 @@
 
 namespace HelloWorld.exercise
 {
-
-    class Program
+    partial class Program
     {
         private static conditionsTest test;
         private static LoopTest loop;
@@ -17,10 +16,36 @@ namespace HelloWorld.exercise
             //loop = new LoopTest();
             //array = new Array_List();
 
-            mass = new stringBuilder();
-            mass.exec5();
+            // mass = new stringBuilder();
+            // mass.exec5();
+            MainStopwatch();
 
 
         }
+
+
+        static void MainStopwatch()
+        {
+            var sw = new Stopwatch();
+            while (true)
+            {
+                var input = Console.ReadLine();
+                switch (input.ToLower())
+                {
+                    case "start":
+                        sw.Start();
+                        break;
+                    case "stop":
+                        Console.WriteLine(sw.Stop()); 
+                        break;
+                    default:
+                        Console.WriteLine("Sorry didn't get that ");
+                        break;
+                        
+                }
+            }
+
+        }
+
     }
 }
