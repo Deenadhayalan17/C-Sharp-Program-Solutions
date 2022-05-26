@@ -15,11 +15,13 @@ namespace HelloWorld.exercise
             //test.exec4();
             //loop = new LoopTest();
             //array = new Array_List();
-
+            //exercise runs
             // mass = new stringBuilder();
             // mass.exec5();
-            MainStopwatch();
-
+            //MainStopwatch();
+            //logical problems calling
+            var test = new Swapping();
+            test.Method3();
 
         }
 
