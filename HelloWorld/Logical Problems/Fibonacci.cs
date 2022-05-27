@@ -33,7 +33,23 @@ namespace HelloWorld.exercise
             Console.ReadKey();
         }
         //recurssive approach to print fibonacci series
+        public void Method2()
+        {
+            int firstnumber = 0, secondnumber = 1, input;
+            Console.WriteLine("Enter the number");
+             input = int.Parse(Console.ReadLine());
 
+            Fibonaccimethod(firstnumber, secondnumber, 1, input);
 
+        }
+
+        private void Fibonaccimethod(int firstnumber, int secondnumber, int counter, int input)
+        {
+            Console.Write(firstnumber + " ");
+            if (counter < input)
+            {
+                Fibonaccimethod(secondnumber, firstnumber + secondnumber, counter + 1, input);
+            }
+        }
     }
 }

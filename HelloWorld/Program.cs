@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new Fibonacci();
-            test.Method1();
+            test.Method2();
 
         }
 
