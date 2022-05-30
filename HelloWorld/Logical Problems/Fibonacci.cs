@@ -11,7 +11,7 @@ namespace HelloWorld.exercise
             int firstnumber = 0, secondnumber = 1, nextnumber, input;
 
             Console.WriteLine("Enter the number:");
-            input = int.Parse( Console.ReadLine());
+            input = int.Parse(Console.ReadLine());
 
             if (input < 2)
             {
@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             {
                 Console.Write(firstnumber + " " + secondnumber + " ");
 
-                for (var i =2; i < input; i++)
+                for (var i = 2; i < input; i++)
                 {
                     nextnumber = firstnumber + secondnumber;
                     Console.Write(nextnumber + " ");
@@ -37,7 +37,7 @@ namespace HelloWorld.exercise
         {
             int firstnumber = 0, secondnumber = 1, input;
             Console.WriteLine("Enter the number");
-             input = int.Parse(Console.ReadLine());
+            input = int.Parse(Console.ReadLine());
 
             Fibonaccimethod(firstnumber, secondnumber, 1, input);
 
@@ -50,6 +50,60 @@ namespace HelloWorld.exercise
             {
                 Fibonaccimethod(secondnumber, firstnumber + secondnumber, counter + 1, input);
             }
+        }
+        //find the number in the series recurssion
+        public void Method3()
+        {
+            int input;
+            Console.WriteLine("enter the number you want in the series");
+            input = int.Parse(Console.ReadLine());
+            input = input - 1;
+            Console.Write(nthfibnumber(input));
+            Console.Read();
+        }
+
+        private int nthfibnumber(int input)
+        {
+            if (input == 0 || input == 1)
+            {
+                return input;
+            }
+            else
+            {
+                return (nthfibnumber(input - 1) + nthfibnumber(input - 2));
+            }
+        }
+        //Without Using Recursive Function:
+
+        public void Method4()
+        {
+            Console.WriteLine("enter a number ");
+            int input = int.Parse(Console.ReadLine());
+
+            input = input - 1;
+            Console.WriteLine(fibnonrecussive(input));
+        }
+
+        private int fibnonrecussive(int input)
+        {
+            int firstnumber = 0, secondnumber = 1, nextnumber;
+            if (input == 0)
+            {
+                return firstnumber;
+            }
+            for(int i = 2; i<=input;i++)
+            {
+                nextnumber = firstnumber + secondnumber;
+                firstnumber = secondnumber;
+                secondnumber = nextnumber;
+            }
+            return secondnumber;
+
+        }
+
+        public void Method5()
+        {
+            Console.WriteLine("enter a number till series should be displayed");
         }
     }
 }
