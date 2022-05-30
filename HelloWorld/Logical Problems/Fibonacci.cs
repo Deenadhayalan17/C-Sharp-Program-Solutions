@@ -100,10 +100,23 @@ namespace HelloWorld.exercise
             return secondnumber;
 
         }
+        //Print the Fibonacci Series up to a given number in C#?
 
-        public void Method5()
+        public int Method5()
         {
             Console.WriteLine("enter a number till series should be displayed");
+            int input = int.Parse(Console.ReadLine());
+            int firstnumber=0,secondnumber=1, nextnumber=1;
+            Console.Write(firstnumber+" "+secondnumber+" ");
+
+            while (nextnumber < input)
+            {
+                nextnumber = firstnumber + secondnumber;
+                firstnumber = secondnumber;
+                secondnumber = nextnumber;
+                Console.Write(nextnumber+" ");
+            }
+            return firstnumber;
         }
     }
 }
