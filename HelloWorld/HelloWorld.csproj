@@ -50,6 +50,7 @@
     <Compile Include="Logical Problems\Fibonacci.cs" />
     <Compile Include="Logical Problems\Palindrome.cs" />
     <Compile Include="Logical Problems\PrimeNumber.cs" />
+    <Compile Include="Logical Problems\ReverseDigits.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="exercise\Stopwatch.cs" />

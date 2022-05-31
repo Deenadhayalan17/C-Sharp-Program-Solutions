@@ -2,6 +2,7 @@
 
 namespace HelloWorld.exercise
 {
+
     public class Palindrome
     {
         //integer palindrome using reminder 
