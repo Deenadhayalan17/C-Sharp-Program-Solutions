@@ -20,8 +20,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new PrimeNumber();
-            test.Method2();
+            var test = new Palindrome();
+            test.Method1();
 
         }
 
