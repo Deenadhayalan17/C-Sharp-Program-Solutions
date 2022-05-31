@@ -48,6 +48,7 @@
     <Compile Include="exercise\LoopTest.cs" />
     <Compile Include="exercise\stringBuilder.cs" />
     <Compile Include="Logical Problems\Fibonacci.cs" />
+    <Compile Include="Logical Problems\PrimeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="exercise\Stopwatch.cs" />

@@ -20,8 +20,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new Fibonacci();
-            test.Method5();
+            var test = new PrimeNumber();
+            test.Method2();
 
         }
 
