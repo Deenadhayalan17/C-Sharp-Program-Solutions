@@ -82,6 +82,28 @@ namespace HelloWorld.exercise
             }
 
         }
+        //using array 
+
+        public void Method4()
+        {
+            Console.WriteLine("enter a string to check :");
+
+            string input = Console.ReadLine();
+
+            char[] inputarray = input.ToCharArray();
+            Array.Reverse(inputarray);
+
+            string reverse = new string(inputarray);
+
+            if (input.Equals(reverse, StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("it is a palindrome");
+            }
+            else
+            {
+                Console.WriteLine("it is not a plaindrome");
+            }
+        }
     }
 
 
