@@ -63,6 +63,23 @@ namespace HelloWorld.exercise
         public void Method3()
         {
             Console.WriteLine("Enter the name to check :");
+            string input = Console.ReadLine();
+            string reverse = string.Empty;
+
+
+            foreach(var i in input)
+            {
+                reverse = i + reverse;
+                
+            }
+            if (input.Equals(reverse, StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("its a palindrome");
+            }
+            else
+            {
+                Console.WriteLine("Its not a palindrome");
+            }
 
         }
     }
