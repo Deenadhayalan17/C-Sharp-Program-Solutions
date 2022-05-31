@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new Palindrome();
-            test.Method1();
+            test.Method2();
 
         }
 
