@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new ReverseDigits();
-            test.Method2();
+            test.Method4();
 
         }
 

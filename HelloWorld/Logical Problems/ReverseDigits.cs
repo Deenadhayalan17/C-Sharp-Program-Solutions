@@ -38,6 +38,36 @@ namespace HelloWorld.exercise
 
         }
         // reverse sting in For Loop
+        public void Method3()
+        {
+
+            Console.WriteLine("ENTER THE string");
+            string input = Console.ReadLine();
+
+            string output = string.Empty;
+
+            foreach(char i in input)
+            {
+                output = i + output;
+            }
+            Console.WriteLine(output);
+
+        }
+        // reverse loop Concept
+        public void Method4()
+        {
+            Console.WriteLine("Enter the string need to reverse:");
+            string input = Console.ReadLine();
+
+            string output = string.Empty;
+
+            for (int i = input.Length-1; i >= 0; i--)
+            {
+                output = output + input[i];
+            }
+            Console.WriteLine(output);
+        }
+
     }
 
 
