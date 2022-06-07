@@ -47,6 +47,7 @@
     <Compile Include="exercise\conditionsTest.cs" />
     <Compile Include="exercise\LoopTest.cs" />
     <Compile Include="exercise\stringBuilder.cs" />
+    <Compile Include="Logical Problems\ArmstrongNumber.cs" />
     <Compile Include="Logical Problems\Fibonacci.cs" />
     <Compile Include="Logical Problems\Palindrome.cs" />
     <Compile Include="Logical Problems\PrimeNumber.cs" />

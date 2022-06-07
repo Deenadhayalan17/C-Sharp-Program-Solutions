@@ -20,8 +20,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new ReverseDigits();
-            test.Method4();
+            var test = new ArmstrongNumber();
+            test.Method1();
 
         }
 
