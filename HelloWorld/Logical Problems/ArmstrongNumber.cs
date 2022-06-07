@@ -4,7 +4,7 @@ namespace HelloWorld.exercise
 {
     public class ArmstrongNumber
     {
-
+        //check wheter its a armstrong Number
         public void Method1()
         {
             int i = 0;
@@ -41,8 +41,51 @@ namespace HelloWorld.exercise
 
 
         }
+        //find the Armstring numbers in the range 
+        public void Method2()
+        {
+            Console.WriteLine("Enter the start number");
+            int start = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the end number");
+            int End = int.Parse(Console.ReadLine());
+
+            for (int i= start; i < End; i++)
+            {
+                 if (Amstrongfunction(i))
+                {
+                    Console.WriteLine(i);
+
+                }
+            }
 
 
+        }
+
+        private bool Amstrongfunction(int i)
+        {
+            int sum = 0;
+            int Temporary = i;
+            int length = i.ToString().Length;
+            int temp = 0;
+
+            while (i > 0)
+            {
+                temp = i % 10;
+                i = i / 10;
+                sum +=(int) Math.Pow(temp, length);
+
+            }
+            if(sum== Temporary)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            //throw new NotImplementedException();
+        }
     }
 
 

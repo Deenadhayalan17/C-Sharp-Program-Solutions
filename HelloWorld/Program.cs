@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new ArmstrongNumber();
-            test.Method1();
+            test.Method2();
 
         }
 
