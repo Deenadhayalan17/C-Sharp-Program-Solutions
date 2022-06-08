@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new Factorial();
-            test.Method2();
+            test.Method3();
         }
 
 

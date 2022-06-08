@@ -34,7 +34,29 @@ namespace HelloWorld.exercise
             Console.WriteLine($"the factorial is {output}");
 
         }
+        //Factorial of a number using Recursive Function in C#
+        public void Method3()
+        {
+            Console.WriteLine("Enter the number to find the factorial: ");
 
+            int input = int.Parse(Console.ReadLine());
+
+            int Output = FacRecMethod(input);
+            Console.WriteLine("factorial is " + Output);
+
+        }
+
+        private int FacRecMethod(int input)
+        {
+            if (input == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return input * FacRecMethod(input - 1);
+            }
+        }
     }
 
 
