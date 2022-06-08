@@ -20,9 +20,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new ArmstrongNumber();
+            var test = new Factorial();
             test.Method2();
-
         }
 
 
