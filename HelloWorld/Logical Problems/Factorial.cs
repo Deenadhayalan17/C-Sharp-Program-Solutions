@@ -57,6 +57,25 @@ namespace HelloWorld.exercise
                 return input * FacRecMethod(input - 1);
             }
         }
+        //do while
+        public void Method4()
+        {
+            Console.WriteLine("Enter a number to find Factorial:");
+
+            int input = int.Parse(Console.ReadLine());
+
+            int factorial = 1;
+            do
+            {
+                factorial = factorial * input;
+                input -- ;
+
+            }
+            while (input != 0);
+
+            Console.WriteLine($"The Factorial is {factorial}");
+
+        }
     }
 
 
