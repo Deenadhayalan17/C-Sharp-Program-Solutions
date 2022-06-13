@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloWorld.Logical_Problems;
+using System;
 
 namespace HelloWorld.exercise
 {
@@ -20,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new Factorial();
-            test.Method4();
+            var test = new SumDigit();
+            test.Method3();
         }
 
 
