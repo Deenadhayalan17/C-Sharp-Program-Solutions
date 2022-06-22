@@ -21,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new SumDigit();
-            test.Method3();
+            var test = new DecimalToBinary();
+            test.Method2();
         }
 
 

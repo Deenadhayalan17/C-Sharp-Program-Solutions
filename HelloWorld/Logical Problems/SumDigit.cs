@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld.Logical_Problems
 {
-    class SumDigit
+    partial class SumDigit
     {
         public void Method1()
         {
