@@ -50,6 +50,7 @@
     <Compile Include="exercise\LoopTest.cs" />
     <Compile Include="exercise\stringBuilder.cs" />
     <Compile Include="Logical Problems\ArmstrongNumber.cs" />
+    <Compile Include="Logical Problems\BinaryToDecimal.cs" />
     <Compile Include="Logical Problems\DecimalToBinary.cs" />
     <Compile Include="Logical Problems\Factorial.cs" />
     <Compile Include="Logical Problems\Fibonacci.cs" />

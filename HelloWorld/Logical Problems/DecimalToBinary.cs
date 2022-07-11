@@ -2,7 +2,7 @@
 
 namespace HelloWorld.Logical_Problems
 {
-        public class DecimalToBinary
+    public class DecimalToBinary
         {
 
         public void Method1()
