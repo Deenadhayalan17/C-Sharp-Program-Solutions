@@ -21,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new BinaryToDecimal();
-            test.Method2();
+            var test = new CharaterOccuranceString();
+            test.Method1();
         }
 
 
