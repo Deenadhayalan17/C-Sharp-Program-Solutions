@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace HelloWorld.Logical_Problems
 {
@@ -27,6 +29,42 @@ namespace HelloWorld.Logical_Problems
                 input = input.Replace(input[0].ToString(), string.Empty);
             }
         }
+        public void Method2()
+        {
+            Console.WriteLine("Enter a string");
+            string input = Console.ReadLine();
+            Dictionary<char, int> dic = new Dictionary<char, int>();
+
+            foreach (char ch in input.Replace(" ", string.Empty)){
+                if (dic.ContainsKey(ch))
+                {
+                    dic[ch] = dic[ch] + 1;
+
+                }
+                else
+                {
+                    dic.Add(ch, 1);
+                }
+            }
+
+            foreach(var item in dic.Keys)
+            {
+                Console.WriteLine(item + " " + dic[item]);
+            }
+        }
+        public void Method3()
+        {
+            Console.WriteLine("Enter the String: ");
+
+            string message = Console.ReadLine();
+
+            Dictionary<char, int> dict = message.Replace(" ", string.Empty)
+                                        .GroupBy(c => c)
+                                        .ToDictionary(gr => gr.Key, gr => gr.Count());
+
+
+        }
+
 
 
     }
