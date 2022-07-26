@@ -32,5 +32,19 @@ namespace HelloWorld.Logical_Problems
             Console.WriteLine($"the value is :{output}");
 
         }
+        //Reverse a String Using in-built Reverse Method in C#
+        public void Method3()
+        {
+            Console.WriteLine("enter the string you need to reverse: ");
+
+            string input = Console.ReadLine();
+            string output = string.Empty;
+            //cannot store? in new?
+            char[] chararray = input.ToCharArray();
+            Array.Reverse(chararray);
+            output = new string(chararray);
+
+            Console.WriteLine($"the string is {output}");
+        }
     }
 }
