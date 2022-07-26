@@ -17,5 +17,20 @@ namespace HelloWorld.Logical_Problems
             }
             Console.WriteLine(output);
         }
+
+        //Using the for-each loop to reverse a string in C#
+        public void Method2()
+        {
+            Console.WriteLine("Enter the string: ");
+            string input = Console.ReadLine();
+            string output = string.Empty;
+
+            foreach(char i in input)
+            {
+                output = i + output;
+            }
+            Console.WriteLine($"the value is :{output}");
+
+        }
     }
 }
