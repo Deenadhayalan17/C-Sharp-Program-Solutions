@@ -61,6 +61,10 @@ namespace HelloWorld.Logical_Problems
             Dictionary<char, int> dict = message.Replace(" ", string.Empty)
                                         .GroupBy(c => c)
                                         .ToDictionary(gr => gr.Key, gr => gr.Count());
+            foreach(var i in dict.Keys)
+            {
+                Console.WriteLine(i +" "+ dict[i]);
+            }
 
 
         }

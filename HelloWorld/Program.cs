@@ -22,7 +22,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new CharaterOccuranceString();
-            test.Method2();
+            test.Method3();
         }
 
 
