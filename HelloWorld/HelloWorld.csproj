@@ -58,6 +58,7 @@
     <Compile Include="Logical Problems\Palindrome.cs" />
     <Compile Include="Logical Problems\PrimeNumber.cs" />
     <Compile Include="Logical Problems\ReverseDigits.cs" />
+    <Compile Include="Logical Problems\ReverseString.cs" />
     <Compile Include="Logical Problems\SumDigit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
