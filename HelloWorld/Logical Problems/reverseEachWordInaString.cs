@@ -37,6 +37,39 @@ namespace HelloWorld.Logical_Problems
             Console.WriteLine("the value is " + reverseString);
 
         }
+        //Using Stack to Reverse Each Word in C#
+        public void Method2()
+        {
+            Console.WriteLine("Enter the word:");
+
+            string input = Console.ReadLine();
+            Stack<char> stack = new Stack<char>();
+            for (int i=0; i < input.Length;i++)
+            {
+                if (input[i]!=' ')
+                {
+                    stack.Push(input[i]);
+                }
+                else
+                {
+                    while (stack.Count > 0)
+                    {
+                        Console.Write(stack.Pop());
+
+                    }
+                    Console.Write(' ');
+                }
+
+            }
+            while (stack.Count > 0)
+            {
+                Console.Write(stack.Pop());
+
+
+            }
+            Console.ReadKey();
+
+        }
 
     }
 }
