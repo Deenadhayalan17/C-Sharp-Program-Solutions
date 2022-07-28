@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace HelloWorld.Logical_Problems
@@ -68,8 +69,18 @@ namespace HelloWorld.Logical_Problems
 
             }
             Console.ReadKey();
-
         }
 
+        //Using Linq to Reverse Each Word in C#
+        public void Method3()
+        {
+            Console.WriteLine("Enter the values : ");
+            string input = Console.ReadLine();
+            string reversedString = string.Join(" ", input
+                .Split(' ')
+                .Select(x => new string(x.Reverse().ToArray())));
+
+            Console.WriteLine(" The value is " + reversedString);
+        }
     }
 }
