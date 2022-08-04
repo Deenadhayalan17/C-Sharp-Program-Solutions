@@ -57,6 +57,7 @@
     <Compile Include="Logical Problems\Fibonacci.cs" />
     <Compile Include="Logical Problems\Palindrome.cs" />
     <Compile Include="Logical Problems\PrimeNumber.cs" />
+    <Compile Include="Logical Problems\RemoveDuplicateCharater.cs" />
     <Compile Include="Logical Problems\ReverseDigits.cs" />
     <Compile Include="Logical Problems\reverseEachWordInaString.cs" />
     <Compile Include="Logical Problems\ReverseString.cs" />

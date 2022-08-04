@@ -21,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new ReverseEachWordInaString();
-            test.Method3();
+            var test = new RemoveDuplicateCharater();
+            test.method1();
         }
 
 
