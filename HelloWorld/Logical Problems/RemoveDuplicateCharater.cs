@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace HelloWorld.Logical_Problems
@@ -22,10 +23,23 @@ namespace HelloWorld.Logical_Problems
             Console.ReadKey();
 
         }
+        //Using HashSet to Remove Duplicate Characters:
         public void method2()
         {
             Console.WriteLine("Enter the string: ");
             //string 
+            string input = Console.ReadLine();
+            string output = string.Empty;
+
+            var unique = new HashSet<char>(input);
+
+
+            foreach (char i in unique)
+            {
+                output += i;
+            }
+
+            Console.WriteLine("The Number is " + output);
         }
 
     }
