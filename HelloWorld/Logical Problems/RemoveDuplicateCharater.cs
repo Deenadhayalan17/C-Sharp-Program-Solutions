@@ -41,6 +41,19 @@ namespace HelloWorld.Logical_Problems
 
             Console.WriteLine("The Number is " + output);
         }
+        //Using LINQ to Remove Duplicate Characters From a String:
+
+        public void method3()
+        {
+            Console.WriteLine("ENter the strign to reverse.");
+
+            string Input = Console.ReadLine();
+            var Processed = Input.ToCharArray().Distinct().ToArray();
+            string output = new string(Processed);
+
+            Console.WriteLine("The value is "+ output);
+
+        }
 
     }
 }

@@ -22,7 +22,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new RemoveDuplicateCharater();
-            test.method2();
+            test.method3();
         }
 
 
