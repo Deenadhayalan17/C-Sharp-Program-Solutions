@@ -55,6 +55,7 @@
     <Compile Include="Logical Problems\DecimalToBinary.cs" />
     <Compile Include="Logical Problems\Factorial.cs" />
     <Compile Include="Logical Problems\Fibonacci.cs" />
+    <Compile Include="Logical Problems\FindSubstringOfGivenString.cs" />
     <Compile Include="Logical Problems\Palindrome.cs" />
     <Compile Include="Logical Problems\PrimeNumber.cs" />
     <Compile Include="Logical Problems\RemoveDuplicateCharater.cs" />

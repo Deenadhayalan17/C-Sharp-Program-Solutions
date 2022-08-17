@@ -21,8 +21,9 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new RemoveDuplicateCharater();
-            test.method3();
+            var test = new FindSubstringOfGivenString();
+            test.Method2();
+            test.Method3();
         }
 
 
