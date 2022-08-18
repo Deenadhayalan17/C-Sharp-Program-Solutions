@@ -24,21 +24,26 @@ namespace HelloWorld.Logical_Problems
             Console.ReadKey();
 
         }
+        //Using Substring method:
         public void Method2()
         {
+            Console.WriteLine("Enter the string : ");
 
-            for(int i =0; i < 10; i++)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public void Method3()
-        {
+            string inputString = Console.ReadLine();
 
-            for (int i = 0; i < 10; ++i)
+            int len = inputString.Length;
+            Console.WriteLine("All subString for the given string are ");
+
+            for (int i =0; i < len; i++)
             {
-                Console.WriteLine(i);
+                for (int j=0; j < len - i; j++)
+                {
+                    Console.WriteLine(inputString.Substring(i,j+1)+" ");
+                }
             }
+            Console.ReadKey();
+
         }
+       
     }
 }
