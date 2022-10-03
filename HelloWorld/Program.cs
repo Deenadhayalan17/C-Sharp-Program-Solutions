@@ -22,7 +22,7 @@ namespace HelloWorld.exercise
             //MainStopwatch();
             //logical problems calling
             var test = new FindSubstringOfGivenString();
-            test.Method2();
+            test.Method3();
             //test.Method3();
         }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 
 namespace HelloWorld.Logical_Problems
@@ -42,8 +43,39 @@ namespace HelloWorld.Logical_Problems
                 }
             }
             Console.ReadKey();
-
         }
-       
+        //Finding Unique Substrings of a Given String in C#:
+
+        public void Method3()
+        {
+            Console.WriteLine("Enter the string:");
+            string Input = Console.ReadLine();
+
+            int len = Input.Length;
+
+            int temp = 0;
+
+            string[] SubStringArray = new string[len * (len + 1) / 2];
+
+            for (int i = 0; i < len; i++) { 
+                for (int j = 0; j < len - i; j++)
+                {
+                    SubStringArray[temp] = Input.Substring(i, j + 1);
+                    temp++;
+
+                }
+            }
+            SubStringArray = SubStringArray.Distinct().ToArray();
+
+            Console.WriteLine("All unique substring for strings are");
+
+            for (int i =0; i < SubStringArray.Length; i++)
+            {
+                Console.Write(SubStringArray[i] + " ");
+            }
+            Console.ReadKey();
+        }
+
+
     }
 }
