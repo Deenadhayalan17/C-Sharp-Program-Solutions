@@ -113,6 +113,44 @@ namespace HelloWorld.Logical_Problems
 
 
         }
+        public void Method4()
+        {
+            Console.WriteLine("Enter String : ");
+
+            string input = Console.ReadLine();
+
+            var Substrings =
+
+                from i in Enumerable.Range(0, input.Length)
+                from j in Enumerable.Range(0, input.Length - i + 1)
+                where j > 1
+                select input.Substring(i, j);
+
+            // 
+            Console.WriteLine();
+            Console.WriteLine("all sub strings are: ");
+
+            foreach (string substring in Substrings)
+            {
+
+                Console.WriteLine(substring + " ");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("Enter all the unique string");
+
+
+            foreach (string substring in Substrings.Distinct())
+            {
+                Console.Write(substring + " ");
+            }
+            Console.ReadKey();
+
+
+
+        }
 
 
     }
