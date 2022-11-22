@@ -52,6 +52,7 @@
     <Compile Include="Logical Problems\ArmstrongNumber.cs" />
     <Compile Include="Logical Problems\BinaryToDecimal.cs" />
     <Compile Include="Logical Problems\CharaterOccuranceString.cs" />
+    <Compile Include="Logical Problems\Darrayfrom2d.cs" />
     <Compile Include="Logical Problems\DecimalToBinary.cs" />
     <Compile Include="Logical Problems\Factorial.cs" />
     <Compile Include="Logical Problems\Fibonacci.cs" />
