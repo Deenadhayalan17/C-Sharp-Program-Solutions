@@ -21,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new FindSubstringOfGivenString();
-            test.Method3();
+            var test = new ArmstrongNumber();
+            test.Method1();
             //test.Method3();
         }
 
