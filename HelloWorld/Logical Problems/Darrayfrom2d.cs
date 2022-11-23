@@ -47,7 +47,7 @@ namespace HelloWorld.Logical_Problems
             Console.ReadKey();
 
         }
-        Creating the 1D Array From 2D Array Row Wise in C#:
+        //Creating the 1D Array From 2D Array Row Wise in C#:
         public void Method2()
         {
             int[,] int2dArray = new int[2, 3];
