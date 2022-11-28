@@ -21,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new Darrayfrom2d();
-            test.Method2();
+            var test = new ODinto2D();
+            test.Method1();
             //test.Method3();
         }
 
