@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new LeftCircularRotation();
+            var test = new RightCircularRotation();
             test.Method1();
             //test.Method3();
         }

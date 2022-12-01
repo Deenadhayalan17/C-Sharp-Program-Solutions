@@ -65,6 +65,7 @@
     <Compile Include="Logical Problems\ReverseDigits.cs" />
     <Compile Include="Logical Problems\reverseEachWordInaString.cs" />
     <Compile Include="Logical Problems\ReverseString.cs" />
+    <Compile Include="Logical Problems\RightCircularRotation.cs" />
     <Compile Include="Logical Problems\SumDigit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
