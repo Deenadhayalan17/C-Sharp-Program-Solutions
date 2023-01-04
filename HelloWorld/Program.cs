@@ -21,7 +21,7 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new AngleBtwHrandMinuteHand();
+            var test = new RemoveDuplicateElement();
             test.Method1();
             //test.Method3();
         }
