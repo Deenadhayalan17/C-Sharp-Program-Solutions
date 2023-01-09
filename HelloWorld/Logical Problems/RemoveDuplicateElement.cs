@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld.Logical_Problems
 {
-    public class RemoveDuplicateElement
+    public partial class RemoveDuplicateElement
     {
         //C# Program to Remove Duplicate Elements from an Array
         public void Method1()
