@@ -42,7 +42,6 @@ namespace HelloWorld.Logical_Problems
         public void Method2()
         {
             Console.WriteLine("the duck number below 100 are :");
-
             for (int i=0; i <= 100; i++) {
                 int current = i;
                 int count=0;

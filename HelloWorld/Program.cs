@@ -21,8 +21,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new DuckNumber();
-            test.Method2();
+            var test = new DisariumNumber();
+            test.Method1();
             //test.Method3();
         }
 
