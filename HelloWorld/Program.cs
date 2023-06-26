@@ -1,4 +1,5 @@
-﻿using HelloWorld.Logical_Problems;
+﻿using HelloWorld.LeetCode._001_050;
+using HelloWorld.Logical_Problems;
 using System;
 
 namespace HelloWorld.exercise
@@ -21,8 +22,8 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new DisariumNumber();
-            test.Method2();
+            var test = new _001_Two_Sum();
+            test.TwoSum(new int [] {1, 3, 6 },9);
             //test.Method3();
         }
 
