@@ -11,6 +11,7 @@ namespace HelloWorld.exercise
 
         //Write a program and continuously ask the user to enter different names, until the user presses Enter(without supplying a name).
         //Depending on the number of names provided, display a message based on the above pattern.
+        //git test
         public void exec1()
         {
             List<string> deena = new List<string> { };
