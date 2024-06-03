@@ -1,4 +1,5 @@
 ﻿using HelloWorld.LeetCode._001_050;
+using HelloWorld.LeetCode.Helper;
 using HelloWorld.Logical_Problems;
 using System;
 
@@ -22,8 +23,9 @@ namespace HelloWorld.exercise
             // mass.exec5();
             //MainStopwatch();
             //logical problems calling
-            var test = new _001_Two_Sum();
-            test.TwoSum(new int [] {1, 3, 6 },9);
+            var link = CSharpHelper.GenerateList(new int[] { 2, 4, 3 });
+            var test = new _002_Add_Two_Numbers();
+            test.AddTwoNumbers(CSharpHelper.GenerateList(new int[] { 2, 4, 3 }), CSharpHelper.GenerateList(new int[] { 5, 6, 4 }));
             //test.Method3();
         }
 

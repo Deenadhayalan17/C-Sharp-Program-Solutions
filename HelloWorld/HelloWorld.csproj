@@ -51,6 +51,7 @@
     <Compile Include="exercise\stringBuilder.cs" />
     <Compile Include="LeetCode\001-050\001-Two Sum.cs" />
     <Compile Include="LeetCode\001-050\002-Add Two Numbers.cs" />
+    <Compile Include="LeetCode\Helper\CSharpHelper.cs" />
     <Compile Include="Logical Problems\AngleBtwHrandMinuteHand.cs" />
     <Compile Include="Logical Problems\ArmstrongNumber.cs" />
     <Compile Include="Logical Problems\BinaryToDecimal.cs" />
